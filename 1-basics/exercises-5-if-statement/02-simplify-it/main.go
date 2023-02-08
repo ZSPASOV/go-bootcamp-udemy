@@ -53,12 +53,4 @@ func main() {
 	} else {
 		fmt.Println("I don't know.")
 	}
-
-	// course solution :
-
-	if isSphere && radius >= 200 {
-		fmt.Println("It's a big sphere.")
-	} else {
-		fmt.Println("I don't know.")
-	}
 }
