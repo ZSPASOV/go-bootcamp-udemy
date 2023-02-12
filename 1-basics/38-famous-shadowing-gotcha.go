@@ -21,5 +21,5 @@ func main() {
 		// all the variables in the if statement
 		fmt.Printf("%s * 2 is %d\n", a[1], n*2)
 	}
-	fmt.Printf("n is %d. You have been shadowed\n", n)
+	fmt.Printf("n is %d. You have been shadoweddd\n", n)
 }
