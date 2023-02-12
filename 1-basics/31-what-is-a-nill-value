@@ -1,0 +1,19 @@
+nil
+nil value means that the value is not initialized yet
+
+javascript null
+python None
+java nullruby nil
+go nil
+
+zero value for pointer-based types
+
+pointers nil
+slices nil
+maps nil
+interfaces nil
+channels nil
+
+nil is extensively used for error handling
+
+nil -> error value -> error handling
