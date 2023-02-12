@@ -65,7 +65,7 @@ func main() {
 	age := os.Args[1]
 	ageNum, err := strconv.Atoi(age)
 	if err != nil {
-		fmt.Println("Error, age should be an intt.")
+		fmt.Println("Error, age should be an int.")
 		return
 	} else if ageNum < 0 {
 		fmt.Printf(wrongAge, age)
