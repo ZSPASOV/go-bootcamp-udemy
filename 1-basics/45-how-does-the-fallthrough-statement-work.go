@@ -10,7 +10,7 @@ func main() {
 	i := 120
 	switch {
 	case i > 100:
-		fmt.Println("big positive")
+		// fmt.Println("big positive")
 		fallthrough
 	case i > 0:
 		fmt.Println("positive")
