@@ -22,20 +22,20 @@ func main() {
 	// #1st way:
 	// --------------------------------
 
-	// for i := 1; i < len(os.Args); i++ {
-	// 	fmt.Printf("%q\n", os.Args[i])
-	// }
+	for i := 1; i < len(os.Args); i++ {
+		fmt.Printf("%q\n", os.Args[i])
+	}
 
 	// --------------------------------
 	// #2nd way:
 	// --------------------------------
 
-	// for i, v := range os.Args {
-	// 	if i == 0 {
-	// 		continue
-	// 	}
-	// 	fmt.Printf("%q\n", v)
-	// }
+	for i, v := range os.Args {
+		if i == 0 {
+			continue
+		}
+		fmt.Printf("%q\n", v)
+	}
 
 	// --------------------------------
 	// #3rd way (best):
