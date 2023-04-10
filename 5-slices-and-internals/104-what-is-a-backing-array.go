@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	// When a slice is created by slicing an array, that array becomes the backing array of that slice.
+	// A slice literal always creates a new backing array. Even if two slice literals have the same types and values, they have different backing arrays.
 	// a slice is a window to its backing array
 	// slice literal creates a hidden array and returns a slice that refers to that array
 	ages := []int{35, 15, 25}

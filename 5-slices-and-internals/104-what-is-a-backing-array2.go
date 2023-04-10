@@ -5,6 +5,8 @@ import (
 )
 
 func main() {
+	// When a slice is created by slicing an array, that array becomes the backing array of that slice.
+	// A slice literal always creates a new backing array. Even if two slice literals have the same types and values, they have different backing arrays.
 	// #1: arrays and non-empty slice literals create an array.
 	// For the arrays, it's explicit, but for the slices,
 	// it's done implicitly, behind the scenes.
