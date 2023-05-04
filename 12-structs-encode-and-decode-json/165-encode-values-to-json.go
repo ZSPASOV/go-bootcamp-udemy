@@ -19,9 +19,21 @@ type user struct { // #1
 
 func main() {
 	users := []user{ // #2
-		{"zap", "1234", nil},
-		{"john", "42", permissions{"admin": true}},
-		{"doe", "66", permissions{"write": true}},
+		{
+			Name:        "zap",
+			Password:    "1234",
+			Permissions: nil,
+		},
+		{
+			Name:        "john",
+			Password:    "42",
+			Permissions: permissions{"admin": true},
+		},
+		{
+			Name:        "doe",
+			Password:    "66",
+			Permissions: permissions{"write": true},
+		},
 	}
 
 	// out, err := json.Marshal(users) // #4
